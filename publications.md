@@ -1,20 +1,69 @@
 ---
 layout: page
 permalink: /publications/index.html
-title: Publications
+title: 项目与成果
 ---
 
-## Publications
+## 项目与成果
 
-- [Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors](https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000)<br>**Siming Deng**, Jun Zhang, Jiongtao Zhong<br>_Communications in Statistics - Simulation and Computation, 2026._ (SCI, first author)<br>
+### 1. 基于氨基酸分析仪研究发酵制品中氨基酸变化及其影响因素
 
-- [A New Logarithmic Multiplicative Distortion for Correlation Analysis](https://onlinelibrary.wiley.com/doi/10.1002/sam.11708)<br>**Siming Deng**, Jun Zhang<br>_Statistical Analysis and Data Mining: The ASA Data Science Journal, 2024._ (SCI, JCR: Q1, first author, Top Cited Article - WILEY 2025)<br>
+四川大学 2025 年度本科生"走进大仪"体验计划项目　\|　项目负责人：邓莎　\|　指导教师：邓莎、张佳琪　\|　2025.10 – 2025.11　\|　**已结项**
 
-- [A Revisit to Pearson Correlation Coefficient under Multiplicative Distortions](https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352)<br>**Siming Deng**, Jun Zhang, Yingcong Huang, Jiongtao Zhong & Xiaozhen Yang<br>_Communications in Statistics - Simulation and Computation, 2024._ (SCI, first author, Highly Cited Paper - Web of Science)<br>
+参与同学（排名不分先后）：李卓烨、李宗宸、王佳豪、**刘丰豪**、陈小娟、武芳竹、张睿熙、龙林书、王悦、栾宸
 
-- [Covariance Ratio under Multiplicative Distortion Measurement Errors](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240)<br>Jiongtao Zhong, **Siming Deng**, Jun Zhang & Zhenghui Feng<br>_Communications in Statistics - Theory and Methods, 2023._ (SCI, 2nd-author)<br>
+<div class="publication-media">
+  <img src="/images/dayi-certificate.jpg" alt="四川大学 2025 年度本科生走进大仪体验计划项目结项证书">
+</div>
 
-- [Estimation of Correlation Coefficient with Monotone Transformation and Multiplicative Distortions](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794)<br> Jun Zhang, Xuan Yu, **Siming Deng**, Jiongtao Zhong, Yisheng Zhou & Bingqing
-  Lin<br>_Communications in Statistics - Theory and Methods, 2023._ (SCI, 3rd-author)<br>
+*结项证书 · 四川大学实验室及设备管理处颁发，二〇二六年一月*
+
+**项目背景.** 泡菜等发酵制品的风味与营养价值由微生物代谢产物决定，氨基酸谱是其中最容易量化的一类指标。本项目以豇豆为研究对象，用仪器分析手段跟踪发酵过程中氨基酸组成随时间的变化，并考察盐度与物理状态对发酵进程的影响。
+
+**实验设计.** 以盐度梯度（3% / 6% / 9%）与物理状态（完整 / 切碎）构建双变量 5 组对照，在同一发酵周期内按 10.10 / 10.17 / 10.24 / 10.31 / 11.07 / 11.14 六个时间节点连续取样，实现五周的发酵跟踪。
+
+**个人主要工作.** 独立完成氨基酸衍生试剂配制（醋酸钾–乙酸准备液、茚三酮–乙二醇–甲醇显色液，混合后 0.45 μm 过滤并 HDPE 瓶避光保存）；采用磺基水杨酸沉淀蛋白、4 °C 冷藏离心、0.22 μm 膜过滤的前处理流程，使样品满足仪器进样要求；操作 A300 全自动氨基酸分析仪完成 15 组样品上机测定与特征峰识别；以"标准品峰面积比值"反算各氨基酸含量（nmol/mL）。
+
+**结果与结论.** 检出物质种类由第 0 天的 **4 种**迅速扩增到第 7 天的 **23 种**，第 14 天回落至 **17 种**。定量结果显示苯基乙胺（PEA）与羟脯氨酸（Hypro）持续下降，瓜氨酸（Cit）持续上升，天冬酰胺（Asn）与 γ-氨基丁酸（g-ABA）先升后降；结合盐度与 pH 监测，验证了发酵过程的多菌种协同代谢机制，且盐浓度越高发酵越慢。
+
+<br>
+
+### 2. 基于表面增强红外技术的白酒中乙醛、乙缩醛快速检测模型构建
+
+四川大学轻工科学与工程学院 × 四川德懋农业发展集团有限责任公司 联合申报　\|　指导教师：罗爱民　\|　项目负责人：林子鉴　\|　项目组成员：**刘丰豪**、杨孙华　\|　计划期 2025.11 – 2027.10
+
+**项目目标.** 白酒中乙醛、乙缩醛是影响饮后舒适性的关键痕量醛类，传统检测依赖气相色谱，成本高、周期长。本项目尝试用**表面增强红外光谱（SEIRA）**结合机器学习，建立快速定量检测方案：以"SiO₂@Au–分子接头–肼基"功能化核壳基底，通过**腙键**靶向醛类分子，构建 150 组"光谱–含量"数据库，并以验证集 R² > 0.90、RPD > 3.0 作为模型性能目标。
+
+**项目建模方案.** 按线性基准（PLSR）、非线性核方法（SVR）、集成学习（XGBoost）到深度学习（1D/2D-CNN）四类范式并行对比，采用决定系数、RMSE、RPD 与 Bland–Altman 分析综合评估。
+
+**个人主要工作.** 协助完成覆盖不同香型白酒的 SEIRA 光谱采集与光谱数据预处理。**未参与建模环节**，以上建模方案为项目整体技术路线。
+
+**前期实验基础.** 已在指导教师课题组实验室参与 PEF（低压脉冲振荡电场）催陈白酒实验，完成同一浓香型白酒在三个脉冲处理时间点下主要风味物质的含量变化测定，具备光谱类仪器操作与实验数据处理经验。
+
+<br>
+
+### 3. 年产量 3000 t NFC 冷压苹果汁工厂设计
+
+食品工厂设计课程设计　\|　**独立完成**
+
+**设计内容.** 独立完成 3000 t/年 NFC 冷压苹果汁生产线的全流程工艺设计：工艺流程比选与物料衡算、设备选型与生产能力校核、车间平面与设备布置、公用工程与安全卫生设计，以及技术经济评价。
+
+<div class="publication-media">
+  <img src="/images/papers/apple-juice-process.svg" alt="NFC 冷压苹果汁生产工艺流程与 HACCP 关键控制点图">
+</div>
+
+*生产工艺流程与关键控制点（据课程设计说明书整理）*
+
+**关键数据.** 班产 **7.27 t/班**（旺季 3 班 / 淡季 1 班），冷压出汁率 **72.5%**，破碎阶段同步添加 **0.075% 抗坏血酸**防褐变，杀菌条件 **UHT 135 °C / 5 s**（PPO 灭活约 95%，常温货架 120 天）；共选型 **14 台**主要设备、总装机功率 **254.5 kW**；项目总投资 **1257 万元**，静态投资回收期 **1.5 年**，盈亏平衡点 **28.7%**。
+
+**HACCP.** 按 GB/T 27341 建立 **5 个关键控制点**：原料验收（As ≤ 0.2 mg/kg，棒曲霉素 ≤ 50 μg/kg）、挑选清洗（霉果率 < 3%）、UHT 杀菌（135 °C / 5 s，记录温度曲线）、冷却（至 4 °C）、发货检验（微生物 ≤ 100 CFU/mL）。
+
+<br>
 
 ---
+
+### 荣誉与证书
+
+- **集体荣誉.** 所在团支部（食品科学与工程 3 班团支部）获 **2025 年度四川大学五四红旗团支部**
+- **奖学金.** **2025–2026 学年**四川大学校级综合三等奖学金
+- **英语等级.** CET-4 **554** 分、CET-6 **545** 分

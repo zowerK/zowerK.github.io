@@ -109,8 +109,8 @@
     height: 0;
   }
 
-  /* UPenn-style header: oversized logo row on top, name + nav row below.
-     Rides above the three decorative glass layers. */
+  /* 双栏吸顶头部：上方为学校字标行，下方为导航行。
+     位于三层玻璃装饰层之上。 */
   .header-container {
     position: relative;
     z-index: 3;
@@ -120,7 +120,7 @@
     background: transparent;
   }
 
-  /* Row 1: oversized Penn logo (far left) + theme toggle (far right) */
+  /* 第一行：左侧学校字标 + 右侧主题切换 */
   .header-top {
     display: flex;
     align-items: center;
@@ -180,7 +180,7 @@
     display: inline-flex;
     align-items: center;
   }
-  /* Slash separators between tabs (UPenn-style) */
+  /* 导航项之间的斜杠分隔 */
   .header-nav a:not(:last-child)::after {
     content: "/";
     margin: 0 16px;
@@ -232,7 +232,8 @@
   .header-avatar img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* contain：不裁切头像原图，按原比例完整显示 */
+    object-fit: contain;
     display: block;
     margin: 0;
     border: 0;
@@ -305,7 +306,7 @@
     }
   }
 
-  /* Mobile portrait: pin the Penn logo to the far right */
+  /* 手机竖屏：把学校字标固定在右侧 */
   @media (max-width: 480px) and (orientation: portrait) {
     .header-actions {
       display: none;
@@ -375,7 +376,8 @@
       height: 34px;
       border-radius: 50%;
       display: block;
-      object-fit: cover;
+      /* contain：不裁切头像原图 */
+      object-fit: contain;
     }
 
     /* Contact panel: fixed popover card */
@@ -548,7 +550,7 @@
     <div class="glass-specular" aria-hidden="true"></div>
     <div class="header-container">
 
-      <!-- Row 1: oversized Penn logo (far left) · theme toggle (far right) -->
+      <!-- 第一行：左侧学校字标 · 右侧主题切换 -->
       <div class="header-top">
         <!-- Mobile avatar with expandable contact menu (mobile portrait only) -->
         <div class="mobile-avatar-wrapper">
@@ -559,17 +561,14 @@
         </div>
 
         <a class="header-logo" href="{{ site.url }}" aria-label="{{ site.owner.name }}">
-          <img src="/images/penn-logo.png" class="logo logo--light" alt="University of Pennsylvania">
-          <img src="/images/penn-logo-reverse.png" class="logo logo--dark" alt="University of Pennsylvania">
+          <img src="/images/scu-logo.svg" class="logo logo--light" alt="四川大学">
+          <img src="/images/scu-logo-reverse.svg" class="logo logo--dark" alt="四川大学">
         </a>
 
         <div class="header-actions">
           <div class="header-social">
             <a class="header-social__link" href="mailto:{{ site.owner.email }}" target="_blank" rel="noopener" aria-label="Email" title="Email"><i class="icon-mail" aria-hidden="true"></i></a>
-            <a class="header-social__link" href="https://linkedin.com/in/{{ site.owner.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="icon-linkedin" aria-hidden="true"></i></a>
             <a class="header-social__link" href="https://github.com/{{ site.owner.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="icon-github" aria-hidden="true"></i></a>
-            <a class="header-social__link" href="{{ site.owner.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
-            <a class="header-social__link" href="{{ site.owner.researchgate }}" target="_blank" rel="noopener" aria-label="ResearchGate" title="ResearchGate"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
           </div>
           <!-- Dark mode toggle (desktop only; mobile uses the contact panel toggle) -->
           <div class="theme-toggle-wrapper theme-toggle-wrapper--header">

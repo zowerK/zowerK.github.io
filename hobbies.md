@@ -1,33 +1,39 @@
 ---
 layout: page
 permalink: /hobbies/index.html
-title: Beyond Research
+title: 生活随笔
 ---
 
 <div class="hobbies-pinterest-container">
 
 <div class="hobby-section" markdown="1">
 
-## Personal Photos
+## 一些照片
 
 <div class="third">
   <div class="image-container">
     <a href="/images/hobbies/dsm2.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm2.jpg" alt="Siming's personal photo">
+      <img src="/images/hobbies/dsm2.jpg" alt="操场夜色中的朋友们">
     </a>
+    <div class="image-caption">
+      <div class="caption-title">操场夜色 · 与朋友</div>
+    </div>
   </div>
   <div class="image-container">
     <a href="/images/hobbies/dsm3.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm3.jpg" alt="Siming at the Forbidden City in Beijing">
+      <img src="/images/hobbies/dsm3.jpg" alt="夜晚操场合影">
     </a>
     <div class="image-caption">
-      <div class="caption-title">Forbidden City, Beijing</div>
+      <div class="caption-title">操场 · 合影</div>
     </div>
   </div>
   <div class="image-container">
     <a href="/images/hobbies/dsm4.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm4.jpg" alt="Siming's personal photo">
+      <img src="/images/hobbies/dsm4.jpg" alt="都江堰老君阁">
     </a>
+    <div class="image-caption">
+      <div class="caption-title">老君阁 · 都江堰</div>
+    </div>
   </div>
 </div>
 
@@ -35,56 +41,69 @@ title: Beyond Research
 
 <div class="hobby-section cooking-section" markdown="1">
 
-## Possibly the World's Best Amateur Chef
+## 厨房是我的第二实验室
 
 <div class="cooking-text-card">
-Every meal is an opportunity to create, taste, and share.
+学食品的人，最大的便利是知道锅里正在发生什么。
 </div>
 
-<div class="cooking-gallery">
-  <div class="cooking-featured">
-    <a href="/images/hobbies/Dish1.jpg" class="image-popup">
-      <img src="/images/hobbies/Dish1.jpg" alt="Siming's signature dish">
-    </a>
-  </div>
-  <div class="cooking-grid">
-    <div class="cooking-item">
-      <a href="/images/hobbies/Dish2.jpg" class="image-popup">
-        <img src="/images/hobbies/Dish2.jpg" alt="Homemade meal by Siming">
-      </a>
-    </div>
-    <div class="cooking-item">
-      <a href="/images/hobbies/Dish3.jpg" class="image-popup">
-        <img src="/images/hobbies/Dish3.jpg" alt="Culinary creation by Siming">
-      </a>
-    </div>
-  </div>
+<div class="cooking-single">
+  <a href="/images/hobbies/Dish1.jpg" class="image-popup">
+    <img src="/images/hobbies/Dish1.jpg" alt="烤肉、砂锅、串串与红油面等成都日常吃食">
+  </a>
+</div>
+
+</div>
+
+<div class="hobby-section hobby-section--textlong" markdown="1">
+
+## 跑步：从三公里到半马
+
+跑步是我从高中带到大学、一直没中断的习惯。课业最紧的时候反而跑得最勤——跑完的那一公里，脑子里的公式和作业会自己排好队。
+
+大学之后陆续跑过几次校园马拉松，单次最长跑了 7.63 公里，5.1 公里那一场的净计时是 22 分 32 秒。成绩谈不上快，但每一次把号码布别上、把终点线踩在脚下的感觉都一样好。
+
+<div class="hobby-quote">
+"先把变量控制住，再谈经验——这句话我在实验室、厨房和跑道上各验证了一次。"
 </div>
 
 </div>
 
 <div class="hobby-section" markdown="1">
 
-## Passion for the Blues: My Guitar Journey
-
-Beyond academia and AI innovation, you'll find me lost in the soulful rhythms of the blues. For me, the guitar isn't just an instrument — it's a bridge between logic and emotion, a medium to channel life's raw, unfiltered energy. I've spent countless evenings with fingers dancing across the fretboard, honing the perfect bend or riff until my mom practically dragged me out for dinner. To me, blues is more than music; it's a storytelling language where every note carries joy, struggle, and resilience.
-
-My musical heroes are legends who pioneered the genre: <span class="artist-name">B.B. King</span>'s soulful improvisation, <span class="artist-name">Eric Clapton</span>'s blues-rock mastery, and <span class="artist-name">John Mayer</span>'s modern reinvention. Their influence resonates in my playing—whether I'm jamming the blues' foundational 12-bar shuffle or experimenting with ambient textures.
-
-<div class="hobby-quote">
-"Life isn't just about hitting the right notes in code; it's about finding harmony between mind and soul."
-</div>
-
-</div>
-
-<div class="hobby-section guitar-showcase" markdown="1">
-
-<p class="guitar-tagline">My guitar, my life. My guitar, my wife :)</p>
-
-<div class="guitar-image-container">
-  <a href="/images/hobbies/guitar.jpg" class="image-popup">
-    <img src="/images/hobbies/guitar.jpg" alt="Martin OM28 acoustic guitar and Fender American Professional II">
-  </a>
+<div class="third">
+  <div class="image-container">
+    <a href="/images/hobbies/running-1.jpg" class="image-popup">
+      <img src="/images/hobbies/running-1.jpg" alt="校园马拉松完赛留影">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">校园马拉松 · 完赛</div>
+    </div>
+  </div>
+  <div class="image-container">
+    <a href="/images/hobbies/running-2.jpg" class="image-popup">
+      <img src="/images/hobbies/running-2.jpg" alt="马拉松赛前自拍">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">赛前 · 号码布</div>
+    </div>
+  </div>
+  <div class="image-container">
+    <a href="/images/hobbies/running-3.jpg" class="image-popup">
+      <img src="/images/hobbies/running-3.jpg" alt="成绩证书与跑步记录截图">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">5.1 KM · 净计时 22:32</div>
+    </div>
+  </div>
+  <div class="image-container">
+    <a href="/images/hobbies/running-4.jpg" class="image-popup">
+      <img src="/images/hobbies/running-4.jpg" alt="跑步奖牌">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">又一块奖牌</div>
+    </div>
+  </div>
 </div>
 
 </div>

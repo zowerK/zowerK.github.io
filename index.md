@@ -1,91 +1,64 @@
 ---
 layout: page
+description: 刘丰豪，四川大学轻工科学与工程学院食品科学与工程专业本科生，关注食品加工工艺、仪器分析与食品工厂设计。
 ---
 
-# About Me
+# 关于我
 
-<img src="/images/dengsiming.jpg" class="floatpic">
+<img src="/images/avatar.jpg" class="floatpic">
 
-Here is **Siming Deng (Larry Deng)**.<br>
+我是**刘丰豪**，[四川大学](https://www.scu.edu.cn/)[轻工科学与工程学院](https://qfsp.scu.edu.cn/)食品科学与工程专业本科生（2023.09 – 2027.06）。<br>
 
-I am a graduate student in the Department of [Electrical and Systems Engineering (ESE)](https://www.ese.upenn.edu/) at the [Penn Engineering](https://www.seas.upenn.edu/) of the **University of Pennsylvania**. Currently, I build **agentic AI tools and infrastructure** for iPhone hardware testing, spanning agent runtimes (multi-agent orchestration and tool use), on-device inference with **Apple MLX**, closed-loop test optimization, and **Vision Transformers** for distribution diagnosis. Broadly, my interests lie at the intersection of **AI infrastructure, applied ML, and hardware systems**. Prior to joining Penn, I gained valuable research experiences as a Research Assistant at Shenzhen University under the supervision of [Dr. Jun Zhang](https://www.researchgate.net/profile/Jun_Zhang93). My work focused on **Nonparametric Statistics**, **Distortion Measurement Error Models**, and **Large Sample Theory**. I developed and analyzed advanced statistical methods, conducted large-scale simulations, and applied these techniques to real-world datasets, resulting in five SCI publications.<br>
+My name is **Liu Fenghao**, an undergraduate in Food Science and Engineering at the [College of Biomass Science and Engineering](https://qfsp.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/). My interests lie in **food processing technology, instrumental analysis, and food factory design**.
 
-## Work Experience
+我的兴趣集中在**食品加工与工艺优化、仪器分析与数据定量、食品工厂设计**三者的交叉处。在四川大学 2025 年度"本科生走进大仪"体验计划中，我独立完成了氨基酸衍生试剂配制、样品前处理与上机测定，用 A300 全自动氨基酸分析仪跟踪豇豆泡菜发酵过程中氨基酸谱的变化规律；在罗爱民老师课题组，我参与表面增强红外（SEIRA）白酒醛类快速检测项目的光谱采集与数据预处理，并完成 PEF（低压脉冲振荡电场）催陈白酒实验的主要风味物质测定。此外，我系统完成过 3000 t/年苹果汁工厂的工艺设计与技术经济评价。<br>
+
+## 教育与项目经历
 
 <div class="timeline">
   <div class="timeline-progress" id="timeline-progress"></div>
 
   <div class="timeline-item timeline-item--current">
     <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/apple.svg" alt="Apple">
+      <img src="/images/logo/scu.svg" alt="四川大学">
     </div>
     <div class="timeline-card">
       <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Apple Inc.</span></div>
-        <span class="timeline-time">Jan. 2026 - Present</span>
+        <div class="timeline-role">食品科学与工程 <span class="timeline-sep">|</span> <span class="timeline-company"><a href="https://qfsp.scu.edu.cn/">四川大学·轻工科学与工程学院</a></span></div>
+        <span class="timeline-time">2023.09 - 2027.06</span>
       </div>
       <div class="timeline-details">
-        Developed AI agent tools for iPhone hardware testing, enhancing automated diagnostics workflows and improving large-scale test efficiency.
+        本科在读。核心课程成绩：食品微生物学实验 97、化学实验室安全理论与实践 95、计算机辅助工程设计 90、食品生物化学 90、专业综合实验 90、植物系统分类学 90。CET-4 554 / CET-6 545。
       </div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/upenn.svg" alt="UPenn">
+      <img src="/images/logo/scu.svg" alt="四川大学">
     </div>
     <div class="timeline-card">
       <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company">University of Pennsylvania</span></div>
-        <span class="timeline-time">Nov. 2025 - Jan. 2026</span>
+        <div class="timeline-role">项目组成员 <span class="timeline-sep">|</span> <span class="timeline-company">基于表面增强红外技术的白酒中乙醛、乙缩醛快速检测模型构建</span></div>
+        <span class="timeline-time">2025.11 - 2027.10</span>
       </div>
       <div class="timeline-details">
-        ViT-driven image geolocation.
+        联合申报项目（指导教师罗爱民，项目负责人林子鉴）。本人负责 SEIRA 光谱采集与光谱数据预处理，并参与 PEF 催陈白酒实验的风味物质测定。
       </div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/sf.svg" alt="SF Express">
+      <img src="/images/logo/scu.svg" alt="四川大学">
     </div>
     <div class="timeline-card">
       <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">SF Express</span></div>
-        <span class="timeline-time">May. 2025 - Jul. 2025</span>
+        <div class="timeline-role">项目参与人 <span class="timeline-sep">|</span> <span class="timeline-company">使用氨基酸分析仪研究发酵制品中氨基酸变化及其影响因素</span></div>
+        <span class="timeline-time">2025.10 - 2025.11</span>
       </div>
       <div class="timeline-details">
-        Delivered microservice modules for the order management system.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/boc.svg" alt="Bank of China">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Bank of China</span></div>
-        <span class="timeline-time">Jul. 2024 - Sep. 2024</span>
-      </div>
-      <div class="timeline-details">
-        Involved in the deployment and fine-tuning of large language models in internal banking systems.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/szu.svg" alt="Shenzhen University">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company"><a href="https://bdsc.szu.edu.cn/">Big Data Institute, Shenzhen University</a></span></div>
-        <span class="timeline-time">2023 - 2024</span>
-      </div>
-      <div class="timeline-details">
-        Supervised by Distinguished Professor <a href="https://dblp.org/pid/h/JoshuaZhexueHuang.html">Joshua Zhexue Huang</a>. Carried out optimizations on data processing and clustering algorithms by leveraging distributed approximate computing techniques.
+        四川大学 2025 年度本科生"走进大仪"体验计划项目（项目负责人邓莎）。五周发酵跟踪，完成 15 组样品上机测定与特征峰识别，已通过结项验收并获结项证书。
       </div>
     </div>
   </div>
@@ -139,98 +112,63 @@ I am a graduate student in the Department of [Electrical and Systems Engineering
 })();
 </script>
 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - siming_deng_stat [at] 163.com
+如果你对我的经历或合作感兴趣，欢迎随时联系我：liufenghao@stu.scu.edu.cn
 
-**<font color="#990000">Seeking Software Engineer and Machine Learning roles — AI Infrastructure, Applied AI / Agents, and ML Systems. Feel free to reach out!</font>**
+**<font color="#990000">正在寻找食品研发、工艺技术、质量管理方向的实习与校招机会，欢迎交流！</font>**
 
 ---
 
-## Publications
+## 项目与成果
 
 <div class="publications-grid">
 
   <div class="publication-card">
     <div class="publication-thumb">
-      <img src="/images/papers/paper1.svg" alt="Innovative covariance-based framework">
-      <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
+      <img src="/images/dayi-certificate.jpg" alt="四川大学 2025 年度本科生“走进大仪”体验计划项目结项证书">
+      <a href="/publications/" class="publication-overlay">
+        <span>查看详情</span>
       </a>
     </div>
     <div class="publication-info">
       <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" target="_blank" rel="noopener">Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors</a>
+        <a href="/publications/">基于氨基酸分析仪研究发酵制品中氨基酸变化及其影响因素</a>
       </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang, Jiongtao Zhong</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Simulation and Computation, 2026</span> <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, first author</div>
+      <div class="publication-authors">项目负责人：邓莎　\|　指导教师：邓莎、张佳琪　\|　<strong class="author-highlight">刘丰豪</strong>（参与同学，排名不分先后）</div>
+      <div class="publication-conference"><span class="pub-venue">四川大学 2025 年度本科生"走进大仪"体验计划项目</span> <a href="/publications/">[详情]</a></div>
+      <div class="publication-details">已结项 · 四川大学实验室及设备管理处颁发结项证书（2026.01）</div>
     </div>
   </div>
 
   <div class="publication-card">
     <div class="publication-thumb">
-      <img src="/images/papers/paper2.svg" alt="A New Logarithmic Multiplicative Distortion">
-      <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
+      <img src="/images/scu-official-logo.jpg" alt="四川大学校徽标识">
+      <a href="/publications/" class="publication-overlay">
+        <span>查看详情</span>
       </a>
     </div>
     <div class="publication-info">
       <div class="publication-title">
-        <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" target="_blank" rel="noopener">A New Logarithmic Multiplicative Distortion for Correlation Analysis</a>
+        <a href="/publications/">基于表面增强红外技术的白酒中乙醛、乙缩醛快速检测模型构建</a>
       </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang</div>
-      <div class="publication-conference"><span class="pub-venue">Statistical Analysis and Data Mining, 2024</span> <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, JCR: Q1, first author, Top Cited Article - WILEY 2025</div>
+      <div class="publication-authors">四川大学轻工科学与工程学院 × 四川德懋农业发展集团有限责任公司 联合申报</div>
+      <div class="publication-conference"><span class="pub-venue">指导教师：罗爱民</span> <a href="/publications/">[详情]</a></div>
     </div>
   </div>
 
   <div class="publication-card">
     <div class="publication-thumb">
-      <img src="/images/papers/paper3.svg" alt="A Revisit to Pearson Correlation Coefficient">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
+      <img src="/images/papers/apple-juice-process.svg" alt="NFC 冷压苹果汁生产工艺流程与 HACCP 关键控制点">
+      <a href="/publications/" class="publication-overlay">
+        <span>查看详情</span>
       </a>
     </div>
     <div class="publication-info">
       <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" target="_blank" rel="noopener">A Revisit to Pearson Correlation Coefficient under Multiplicative Distortions</a>
+        <a href="/publications/">年产量 3000 t NFC 冷压苹果汁工厂设计</a>
       </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang, Yingcong Huang, Jiongtao Zhong & Xiaozhen Yang</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Simulation and Computation, 2024</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, first author, Highly Cited Paper - Web of Science</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper4.svg" alt="Covariance Ratio under Multiplicative Distortion">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" target="_blank" rel="noopener">Covariance Ratio under Multiplicative Distortion Measurement Errors</a>
-      </div>
-      <div class="publication-authors">Jiongtao Zhong, <strong class="author-highlight">Siming Deng</strong>, Jun Zhang & Zhenghui Feng</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Theory and Methods, 2023</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, 2nd-author</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper5.svg" alt="Estimation of Correlation Coefficient">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" target="_blank" rel="noopener">Estimation of Correlation Coefficient with Monotone Transformation and Multiplicative Distortions</a>
-      </div>
-      <div class="publication-authors">Jun Zhang, Xuan Yu, <strong class="author-highlight">Siming Deng</strong>, Jiongtao Zhong, Yisheng Zhou & Bingqing Lin</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Theory and Methods, 2023</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, 3rd-author</div>
+      <div class="publication-authors"><strong class="author-highlight">刘丰豪</strong>（食品工厂设计课程设计，独立完成）</div>
+      <div class="publication-conference"><span class="pub-venue">食品工厂设计课程设计</span> <a href="/publications/">[详情]</a></div>
+      <div class="publication-details">班产 7.27 t/班 · 出汁率 72.5% · UHT 135 °C / 5 s · 5 个 HACCP 关键控制点</div>
     </div>
   </div>
 
@@ -260,54 +198,55 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ---
 
-## Research Interests
+## 专业方向
 
-- ML Systems & AI Infrastructure
-- Efficient & On-Device Inference (Apple MLX, SGLang)
-- Agentic AI (multi-agent orchestration & tool use)
-- Machine Learning
-- Nonparametric Statistics
+- 食品加工工艺与工艺优化
+- 仪器分析（氨基酸分析、光谱类仪器操作与数据定量）
+- 食品工厂设计与技术经济评价
+- 食品微生物与发酵过程监控
+- 实验数据统计与可视化
 
-I currently work at the intersection of **AI infrastructure and applied ML**, building agent runtimes and optimizing LLM inference.
+我目前的工作围绕**食品加工工艺与仪器分析**展开：从样品前处理、衍生试剂配制到上机测定与定量反算，把仪器输出的峰面积转成可解释的成分变化规律；也熟悉从工艺设计到设备选型、投资估算与回收期分析的食品工厂建设全流程。
 
-Previously, my research centered on **nonparametric statistics** and **measurement-error modeling**, unobservable-variable estimation under multiplicative distortion frameworks, where I developed calibration methods and simulation studies to improve correlation-coefficient estimation in complex industrial settings, resulting in five SCI publications.
-<img src="/images/sunset.jpg">
+<img src="/images/dayi-chromatogram.jpg" alt="A300 全自动氨基酸分析仪双通道色谱图：主峰保留时间 48.253 min">
+
+*走进大仪项目中由 A300 全自动氨基酸分析仪输出的双通道色谱图——横轴为保留时间（min），纵轴为信号强度（mV），主峰出现在 48.253 min，约 188 min 处为一根接近量程上限的尖峰。*
 
 ---
 
-## News and Updates
+## 新闻与动态
 
 <div class="news-grid">
   <div class="news-card news-card--publication">
     <div class="news-meta">
-      <span class="news-date">February 2026</span>
-      <span class="news-tag news-tag--publication">Publication</span>
+      <span class="news-date">2026 年 1 月</span>
+      <span class="news-tag news-tag--publication">项目结项</span>
     </div>
-    <p>First-Author Paper: <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000"><strong>Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors</strong></a> Now Officially Published in <a href="https://www.tandfonline.com/journals/lssp20">Communications in Statistics - Simulation and Computation</a></p>
+    <p>参与四川大学 2025 年度本科生"走进大仪"体验计划项目<strong>基于氨基酸分析仪研究发酵制品中氨基酸变化及其影响因素</strong>，已通过结项验收，获四川大学实验室及设备管理处颁发的<strong>结项证书</strong></p>
   </div>
 
   <div class="news-card news-card--milestone">
     <div class="news-meta">
-      <span class="news-date">Jan 2026</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
+      <span class="news-date">2025 年 11 月</span>
+      <span class="news-tag news-tag--milestone">里程碑</span>
     </div>
-    <p>Excited to have received an offer from Apple!</p>
+    <p>作为项目组成员参与申报<strong>基于表面增强红外技术的白酒中乙醛、乙缩醛快速检测模型构建</strong>（指导教师罗爱民），负责 SEIRA 光谱采集与数据预处理</p>
   </div>
 
   <div class="news-card news-card--milestone">
     <div class="news-meta">
-      <span class="news-date">March 2025</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
+      <span class="news-date">2025 - 2026 学年</span>
+      <span class="news-tag news-tag--milestone">荣誉</span>
     </div>
-    <p>Thrilled to have received an offer from UPenn Engineering!</p>
+    <p>获得四川大学<strong>校级综合三等奖学金</strong>；所在团支部（食品科学与工程 3 班团支部）获 <strong>2025 年度四川大学五四红旗团支部</strong></p>
   </div>
 
   <div class="news-card news-card--publication">
     <div class="news-meta">
-      <span class="news-date">August 2024</span>
-      <span class="news-tag news-tag--publication">Publication</span>
+      <span class="news-date">2024 年 12 月</span>
+      <span class="news-tag news-tag--publication">语言</span>
     </div>
-    <p>First-Author Paper: <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708"><strong>A New Logarithmic Multiplicative Distortion for Correlation Analysis</strong></a> Now Officially Published in <a href="https://onlinelibrary.wiley.com/journal/19321872">Statistical Analysis and Data Mining</a> (JCR Q1)</p>
+    <p>CET-4 <strong>554</strong> 分、CET-6 <strong>545</strong> 分，具备阅读英文设备技术资料与文献的能力</p>
   </div>
 </div>
 

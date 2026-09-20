@@ -1,34 +1,36 @@
-title: Siming Deng
+title: Liu Fenghao's Blog
 # Comment out url when working locally to resolve base urls correctly
-url: https://larrysimingdeng.github.io
+url: https://zowerk.github.io
 
 # Default social-share preview image (Open Graph / Twitter card). Lives in /images/.
 og_image: og-cover.jpg
 
 # Owner/author information
 owner:
-  name: Siming Deng
+  name: 刘丰豪
   avatar: avatar.jpg
-  email: siming_deng_stat@163.com
-  github: LarrySimingDeng
-  linkedin: larry-deng-317b92360
-  scholar: https://scholar.google.com/citations?hl=en&user=aKyLtgsAAAAJ
-  researchgate: https://www.researchgate.net/profile/Siming-Deng-3
+  email: liufenghao@stu.scu.edu.cn
+  bio: 四川大学轻工科学与工程学院食品科学与工程专业本科生，关注食品加工工艺、仪器分析与食品工厂设计。
+  github: zowerK
 
 # https://search.google.com/search-console/ownership
 google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 
 # Links to include in top navigation
 links:
-  - title: About Me
+  - title: 关于我
     url: /
-  - title: Publications
+  - title: 项目与成果
     url: /publications/
-  - title: Beyond Research
+  - title: 志愿服务
+    url: /volunteer/
+  - title: 生活随笔
     url: /hobbies/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: China/Beijing
+# 注意：必须是合法的 IANA 时区名。原值 "China/Beijing" 不存在于 tz database，
+# 在 Windows 上会让 Jekyll 的 WinTZ 直接抛 TZInfo::InvalidTimezoneIdentifier。
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
 

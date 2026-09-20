@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 780" width="1180" height="780" role="img" aria-label="年产量 3000 吨 NFC 冷压苹果汁生产工艺流程图">
+  <title>年产量 3000 t 苹果汁工厂 · 生产工艺流程与关键控制点</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5B6472" />
+    </marker>
+    <style>
+      .box   { fill:#FFFFFF; stroke:#011F5B; stroke-width:2; rx:6; }
+      .ccp   { fill:#FDF0F0; stroke:#990000; stroke-width:2.4; rx:6; }
+      .unit  { fill:#F5F7FA; stroke:#8A94A6; stroke-width:1.6; rx:5; }
+      .t     { font-family:'Inter','Microsoft YaHei','PingFang SC',sans-serif; font-size:15px; fill:#1F3A52; text-anchor:middle; }
+      .ts    { font-family:'Inter','Microsoft YaHei','PingFang SC',sans-serif; font-size:12px; fill:#5B6472; text-anchor:middle; }
+      .tc    { font-family:'Inter','Microsoft YaHei','PingFang SC',sans-serif; font-size:12px; fill:#990000; font-weight:700; text-anchor:middle; }
+      .flow  { stroke:#5B6472; stroke-width:2; fill:none; marker-end:url(#arrow); }
+      .line  { stroke:#5B6472; stroke-width:2; fill:none; }
+      .h1    { font-family:'Inter','Microsoft YaHei','PingFang SC',sans-serif; font-size:21px; font-weight:700; fill:#011F5B; text-anchor:middle; }
+      .h2    { font-family:'Inter','Microsoft YaHei','PingFang SC',sans-serif; font-size:14px; font-weight:700; fill:#011F5B; }
+      .valv  { stroke:#990000; stroke-width:2; fill:none; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="780" fill="#FBFBFC" />
+  <text class="h1" x="590" y="38">年产量 3000 t NFC 冷压苹果汁 · 生产工艺流程与关键控制点</text>
+  <line x1="60" y1="54" x2="1120" y2="54" stroke="#990000" stroke-width="2.5" />
+
+  <!-- main flow: row 1 -->
+  <rect class="ccp"  x="40"  y="96" width="150" height="58" />
+  <text class="t"    x="115" y="120">原料验收</text>
+  <text class="tc"   x="115" y="140">CCP1</text>
+
+  <rect class="ccp"  x="222" y="96" width="150" height="58" />
+  <text class="t"    x="297" y="120">挑选清洗</text>
+  <text class="tc"   x="297" y="140">CCP2</text>
+
+  <rect class="box"  x="404" y="96" width="150" height="58" />
+  <text class="t"    x="479" y="120">低温破碎</text>
+  <text class="ts"   x="479" y="140">＋VC 防褐变 0.075%</text>
+
+  <rect class="box"  x="586" y="96" width="150" height="58" />
+  <text class="t"    x="661" y="120">冷压榨汁</text>
+  <text class="ts"   x="661" y="140">&lt; 50 rpm，全程 &lt; 10 °C</text>
+
+  <rect class="box"  x="768" y="96" width="150" height="58" />
+  <text class="t"    x="843" y="120">粗滤</text>
+  <text class="ts"   x="843" y="140">板框 / 振动筛</text>
+
+  <rect class="box"  x="950" y="96" width="150" height="58" />
+  <text class="t"    x="1025" y="120">均质</text>
+  <text class="ts"   x="1025" y="140">高压均质机</text>
+
+  <!-- wrap arrow -->
+  <path class="line" d="M 1100 154 L 1100 196 L 115 196 L 115 214" />
+  <path class="flow" d="M 115 196 L 115 214" />
+
+  <!-- row 2 -->
+  <rect class="box"  x="40"  y="216" width="150" height="58" />
+  <text class="t"    x="115" y="240">真空脱气</text>
+  <text class="ts"   x="115" y="260">N₂ 顶空</text>
+
+  <rect class="ccp"  x="222" y="216" width="150" height="58" />
+  <text class="t"    x="297" y="240">UHT 杀菌</text>
+  <text class="tc"   x="297" y="260">135 °C / 5 s · CCP3</text>
+
+  <rect class="ccp"  x="404" y="216" width="150" height="58" />
+  <text class="t"    x="479" y="240">冷却</text>
+  <text class="tc"   x="479" y="260">至 4 °C · CCP4</text>
+
+  <rect class="box"  x="586" y="216" width="150" height="58" />
+  <text class="t"    x="661" y="240">无菌灌装</text>
+  <text class="ts"   x="661" y="260">300 mL EVOH 阻氧 PET</text>
+
+  <rect class="box"  x="768" y="216" width="150" height="58" />
+  <text class="t"    x="843" y="240">常温储运</text>
+  <text class="ts"   x="843" y="260">商业无菌 120 天</text>
+
+  <rect class="ccp"  x="950" y="216" width="150" height="58" />
+  <text class="t"    x="1025" y="240">发货检验</text>
+  <text class="tc"   x="1025" y="260">CCP5</text>
+
+  <!-- connectors row1 -->
+  <path class="flow" d="M 190 125 L 218 125" />
+  <path class="flow" d="M 372 125 L 400 125" />
+  <path class="flow" d="M 554 125 L 582 125" />
+  <path class="flow" d="M 736 125 L 764 125" />
+  <path class="flow" d="M 918 125 L 946 125" />
+  <!-- connectors row2 -->
+  <path class="flow" d="M 190 245 L 218 245" />
+  <path class="flow" d="M 372 245 L 400 245" />
+  <path class="flow" d="M 554 245 L 582 245" />
+  <path class="flow" d="M 736 245 L 764 245" />
+  <path class="flow" d="M 918 245 L 946 245" />
+
+  <!-- valve symbols on the main line -->
+  <g>
+    <path class="valv" d="M 205 118 L 205 132 L 213 125 z" />
+    <path class="valv" d="M 387 118 L 387 132 L 395 125 z" />
+    <path class="valv" d="M 569 118 L 569 132 L 577 125 z" />
+    <path class="valv" d="M 751 118 L 751 132 L 759 125 z" />
+    <path class="valv" d="M 933 118 L 933 132 L 941 125 z" />
+    <path class="valv" d="M 205 238 L 205 252 L 213 245 z" />
+    <path class="valv" d="M 387 238 L 387 252 L 395 245 z" />
+    <path class="valv" d="M 569 238 L 569 252 L 577 245 z" />
+    <path class="valv" d="M 751 238 L 751 252 L 759 245 z" />
+    <path class="valv" d="M 933 238 L 933 252 L 941 245 z" />
+  </g>
+
+  <!-- key parameters -->
+  <text class="h2" x="40" y="330">关键工艺参数</text>
+  <line x1="40" y1="340" x2="1120" y2="340" stroke="#D8DCE3" stroke-width="1.5" />
+  <g class="unit">
+    <rect x="40"  y="356" width="200" height="62" />
+    <rect x="256" y="356" width="200" height="62" />
+    <rect x="472" y="356" width="200" height="62" />
+    <rect x="688" y="356" width="200" height="62" />
+    <rect x="904" y="356" width="200" height="62" />
+  </g>
+  <text class="t"  x="140" y="380">班产 7.27 t/班</text>
+  <text class="ts" x="140" y="400">旺季 3 班 / 淡季 1 班</text>
+  <text class="t"  x="356" y="380">出汁率 72.5%</text>
+  <text class="ts" x="356" y="400">螺旋慢榨 &lt; 50 rpm</text>
+  <text class="t"  x="572" y="380">UHT 135 °C / 5 s</text>
+  <text class="ts" x="572" y="400">PPO 灭活约 95%</text>
+  <text class="t"  x="788" y="380">14 台主要设备</text>
+  <text class="ts" x="788" y="400">总装机 254.5 kW</text>
+  <text class="t"  x="1004" y="380">总投资 1257 万元</text>
+  <text class="ts" x="1004" y="400">回收期 1.5 年 · BEP 28.7%</text>
+
+  <!-- HACCP CCP table -->
+  <text class="h2" x="40" y="466">HACCP 关键控制点（5 个 CCP）</text>
+  <line x1="40" y1="476" x2="1120" y2="476" stroke="#D8DCE3" stroke-width="1.5" />
+  <rect x="40" y="492" width="1080" height="34" fill="#011F5B" rx="4" />
+  <text x="140" y="515" style="font-family:'Inter','Microsoft YaHei',sans-serif;font-size:14px;fill:#FFFFFF;text-anchor:middle;font-weight:700;">CCP</text>
+  <text x="330" y="515" style="font-family:'Inter','Microsoft YaHei',sans-serif;font-size:14px;fill:#FFFFFF;text-anchor:middle;font-weight:700;">工序</text>
+  <text x="790" y="515" style="font-family:'Inter','Microsoft YaHei',sans-serif;font-size:14px;fill:#FFFFFF;text-anchor:middle;font-weight:700;">关键限值</text>
+  <g>
+    <rect x="40" y="526" width="1080" height="34" fill="#FFFFFF" stroke="#E3E6EB" />
+    <rect x="40" y="560" width="1080" height="34" fill="#F7F8FA" stroke="#E3E6EB" />
+    <rect x="40" y="594" width="1080" height="34" fill="#FFFFFF" stroke="#E3E6EB" />
+    <rect x="40" y="628" width="1080" height="34" fill="#F7F8FA" stroke="#E3E6EB" />
+    <rect x="40" y="662" width="1080" height="34" fill="#FFFFFF" stroke="#E3E6EB" />
+  </g>
+  <text class="t" x="140" y="548">CCP1</text><text class="t" x="330" y="548">原料验收</text><text class="ts" x="790" y="548">As ≤ 0.2 mg/kg，Pb ≤ 0.3 mg/kg，棒曲霉素 ≤ 50 μg/kg</text>
+  <text class="t" x="140" y="582">CCP2</text><text class="t" x="330" y="582">挑选清洗</text><text class="ts" x="790" y="582">霉果率 &lt; 3%，异物剔除</text>
+  <text class="t" x="140" y="616">CCP3</text><text class="t" x="330" y="616">UHT 杀菌</text><text class="ts" x="790" y="616">135 °C / 5 s，全程记录温度曲线</text>
+  <text class="t" x="140" y="650">CCP4</text><text class="t" x="330" y="650">冷却</text><text class="ts" x="790" y="650">快速冷却至 4 °C</text>
+  <text class="t" x="140" y="684">CCP5</text><text class="t" x="330" y="684">发货检验</text><text class="ts" x="790" y="684">密封完好，微生物 ≤ 100 CFU/mL</text>
+
+  <!-- legend -->
+  <g>
+    <rect class="ccp" x="40" y="714" width="30" height="22" />
+    <text x="80" y="730" style="font-family:'Inter','Microsoft YaHei',sans-serif;font-size:13px;fill:#5B6472;text-anchor:start;">关键控制点（CCP）</text>
+    <rect class="box" x="290" y="714" width="30" height="22" />
+    <text x="330" y="730" style="font-family:'Inter','Microsoft YaHei',sans-serif;font-size:13px;fill:#5B6472;text-anchor:start;">一般工序</text>
+    <path class="valv" d="M 480 716 L 480 734 L 494 725 z" />
+    <text x="506" y="730" style="font-family:'Inter','Microsoft YaHei',sans-serif;font-size:13px;fill:#5B6472;text-anchor:start;">阀门</text>
+  </g>
+  <text x="1120" y="766" text-anchor="end" style="font-family:'Inter','Microsoft YaHei',sans-serif;font-size:12px;fill:#5B6472;">刘丰豪 · 食品工厂设计课程设计</text>
+</svg>

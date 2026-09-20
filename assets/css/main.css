@@ -3054,7 +3054,9 @@ img.mfp-img {
 .publication-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* contain：完整显示配图，不裁切 */
+  object-fit: contain;
+  background: #f4f5f7;
   transition: transform 0.5s ease;
 }
 
@@ -3290,6 +3292,61 @@ img.mfp-img {
   margin: 1.2em 0 0 0;
 }
 
+/* 三格图块统一为 4:3，避免横竖图混排时长宽不一、留下大片空白 */
+.third .image-container {
+  aspect-ratio: 4 / 3;
+}
+
+.third .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 2x2 图片栅格：同样统一比例 */
+.photo-grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5em;
+  margin: 1.2em 0 0 0;
+}
+
+.photo-grid-2x2 .image-container {
+  aspect-ratio: 4 / 3;
+}
+
+.photo-grid-2x2 .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 烹饪区：主图与小图统一比例，避免留白 */
+.cooking-featured,
+.cooking-item {
+  aspect-ratio: 4 / 3;
+}
+
+/* 项目详情页中的证明/配图：不裁切、限宽居中 */
+.publication-media {
+  margin: 1.2em 0 0.6em 0;
+  max-width: 760px;
+}
+
+.publication-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 700px) {
+  .photo-grid-2x2 {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Personal Photos Gallery - Asymmetric Layout */
 .photo-gallery {
   display: grid;
@@ -3319,7 +3376,9 @@ img.mfp-img {
 .photo-featured img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* contain：完整显示原图，不裁切 */
+  object-fit: contain;
+  background: #f4f5f7;
   display: block;
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -3361,7 +3420,9 @@ img.mfp-img {
 .photo-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* contain：完整显示原图，不裁切 */
+  object-fit: contain;
+  background: #f4f5f7;
   display: block;
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -3556,6 +3617,38 @@ img.mfp-img {
   display: contents;
 }
 
+/* 厨房区只放一张图时的整幅展示：不裁切、限宽居中 */
+.cooking-single {
+  margin: 1.4em auto 0;
+  max-width: 560px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cooking-single:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.cooking-single img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cooking-single:hover img {
+  transform: scale(1.03);
+}
+
+@media (max-width: 700px) {
+  .cooking-single {
+    max-width: 100%;
+  }
+}
+
 .cooking-item {
   position: relative;
   border-radius: 6px;
@@ -3729,8 +3822,9 @@ img.mfp-img {
     margin-bottom: 0;
   }
 
-  /* Hide Blues Guitar verbose paragraphs - too much text */
-  .hobby-section:nth-of-type(3) p {
+  /* 隐藏过长段落（原来按 nth-of-type(3) 命中"布鲁斯吉他"段；现改用类名，
+     避免误伤改版后落到第 3 位的内容） */
+  .hobby-section--textlong p {
     display: none;
   }
 

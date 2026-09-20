@@ -14,7 +14,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ site.title }}">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -64,5 +64,5 @@
 <!-- Load Modernizr -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous"></script>
 
-<link rel="icon" type="image/png" href="{{ site.url }}/images/fav.png">
-<link rel="apple-touch-icon" href="{{ site.url }}/images/fav.png">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ site.url }}/images/fav.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/images/apple-touch-icon.png">
