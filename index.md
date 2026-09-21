@@ -11,7 +11,7 @@ description: 刘丰豪，四川大学轻工科学与工程学院食品科学与�
 
 My name is **Liu Fenghao**, an undergraduate in Food Science and Engineering at the [College of Biomass Science and Engineering](https://qfsp.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/). My interests lie in **food processing technology, instrumental analysis, and food factory design**.
 
-我的兴趣集中在**食品加工与工艺优化、仪器分析与数据定量、食品工厂设计**三者的交叉处。在四川大学 2025 年度"本科生走进大仪"体验计划中，我独立完成了氨基酸衍生试剂配制、样品前处理与上机测定，用 A300 全自动氨基酸分析仪跟踪豇豆泡菜发酵过程中氨基酸谱的变化规律；在罗爱民老师课题组，我参与表面增强红外（SEIRA）白酒醛类快速检测项目的光谱采集与数据预处理，并完成 PEF（低压脉冲振荡电场）催陈白酒实验的主要风味物质测定。此外，我系统完成过 3000 t/年苹果汁工厂的工艺设计与技术经济评价。<br>
+我的兴趣集中在食品加工与工艺优化、仪器分析与数据定量、食品工厂设计三个领域。在四川大学 2025 年度"本科生走进大仪"体验计划中，我独立完成了氨基酸衍生试剂配制、样品前处理与上机测定，用 A300 全自动氨基酸分析仪跟踪豇豆泡菜发酵过程中氨基酸谱的变化规律；在罗爱民老师课题组，我参与表面增强红外（SEIRA）白酒醛类快速检测项目的光谱采集与数据预处理，并完成 PEF（低压脉冲振荡电场）催陈白酒实验的主要风味物质测定。此外，我系统完成过 3000 t/年苹果汁工厂的工艺设计与技术经济评价。<br>
 
 ## 教育与项目经历
 
